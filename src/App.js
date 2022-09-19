@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './components/Navbar'; 
-import ItemListContainer from './components/ItemListContainer';
+import ItemsListContainer from "./components/ItemsListContainer"
 
 
 const App = () => {
@@ -9,7 +9,10 @@ const App = () => {
   return(
     <>
     <Navbar/>
-    <ItemListContainer greeting = "Desafio Cumplido"/>
+<ItemsListContainer/>
+    
+
+    
     </>
   );
 }

@@ -4,7 +4,7 @@
 
 .navbar {
   width: 100%;
-  background-image: linear-gradient(to right, rgb(36, 0, 0) , rgb(106, 7, 7));
+  background-image: linear-gradient(to right, rgb(134, 71, 19) , rgb(240, 119, 6));
 }
 
 .navbar-brand{
@@ -17,3 +17,32 @@
  .nav-link:hover{
   color: rgb(84, 84, 84) !important;
  }
+
+
+ 
+
+.btns{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.butComp{
+  padding: 5px 10px 5px 10px;
+  background-color: gray;
+  color: white;
+  border: transparent;
+}
+
+.butMasMenos{
+  background-color: transparent;
+  border: transparent;
+}
+
+
+.btm{
+  padding: 10px;
+  margin: 0  10px  ;
+  font-size: xx-large;
+}
