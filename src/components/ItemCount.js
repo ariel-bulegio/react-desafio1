@@ -1,15 +1,25 @@
 import { useState } from "react";
 
 const ItemCount = ({handleComprar})=>{
-const [cant, setCant] = useState(0);
+const [cant, setCant] = useState(1);
 const handleMas =()=>{
+    if (cant < 10){
 setCant (cant + 1);
+}else{
+    alert("Solo disponemos de 10 unidades")
 }
+
+}
+
 const handleMenos =()=>{
+    if (cant >= 2){
 setCant (cant - 1);
+
+    }else{
+        alert("Pedido no valido, ingrese numeros positivos")
 }
 
-
+}
     return(
         <div >
         

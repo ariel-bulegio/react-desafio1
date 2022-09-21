@@ -13,7 +13,7 @@ const ItemDetail = ({list}) =>{
     <div className="grey">
     <p>{list.material}</p>
     <p>color: {list.color}</p>
-    <p>{list.stock}</p>
+    <p>Stock disponible: {list.stock}</p>
     <ItemCount className="boton"/>
     </div>
 </div>

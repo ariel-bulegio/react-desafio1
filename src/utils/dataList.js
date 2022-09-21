@@ -33,7 +33,7 @@ const dataBase = [
      image : juegoIpanema,
      material :"Material: Mango de plastico reforzado",
      color : "azul",
-     stock : "Stock disponible: 10",
+     stock : 10,
      
     },
 
