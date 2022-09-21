@@ -11,7 +11,8 @@ setCant (cant - 1);
 
 
     return(
-        <>
+        <div >
+        
         <div className="btns">
         <div className="butMasMenos ">
         <button className="btm butMasMenos" onClick={handleMenos} >-</button>{cant}
@@ -23,7 +24,7 @@ setCant (cant - 1);
 
         
         
-        </>
+        </div>
     )
 }
 

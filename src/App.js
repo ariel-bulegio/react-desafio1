@@ -1,7 +1,7 @@
 
 import './App.css';
 import Navbar from './components/Navbar'; 
-import ItemsListContainer from "./components/ItemsListContainer"
+import ItemsListContainer from './containers/ItemsListContainer';
 
 
 const App = () => {
