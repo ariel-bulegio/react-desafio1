@@ -88,3 +88,30 @@ body{
   padding: 3px 30px;
   margin: 10px 0;
 }
+
+.container{
+  margin-top: 50px;
+  display: grid;
+  grid-template-areas: 
+  "imagen titulo"
+  "imagen descripcion"
+  "imagen boton";
+  
+}
+
+.imagen{
+  grid-area: imagen;
+}
+
+.titulo{
+  grid-area: titulo;
+}
+
+.boton{
+  grid-area: boton;
+}
+
+.grey{
+  color: gray;
+}
+

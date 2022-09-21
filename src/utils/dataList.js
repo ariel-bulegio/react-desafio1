@@ -15,7 +15,7 @@ const dataBase = [
     {
      id : 2,
      title : "JUEGO DE OLLAS TRAMONTINA PARIS",
-     description : "Set de ollas, sarten, hirvidora y cacerola con tapas. Enteflonadas antiadherente, calidad PREMIUN",
+     description : "Set de ollas, sarten, hirvidora y cacerola con tapas. Enteflonadas antiadherente, calidad PREMIUN ",
      image : juegoParis,
     },
 
@@ -31,6 +31,10 @@ const dataBase = [
      title : "CUBIERTO TRAMONTINA IPANEMA",
      description : "Cubiertos tramontina linea IPANEMA acero inoxidable, mango plastico reforzado",
      image : juegoIpanema,
+     material :"Material: Mango de plastico reforzado",
+     color : "azul",
+     stock : "Stock disponible: 10",
+     
     },
 
     {
@@ -84,11 +88,11 @@ const dataBase = [
        },
 ]
 
-const list = ()=>{
-    return new Promise((resolve,reject)=>{
-        setTimeout(() => {
-            resolve(dataBase);
-        },2000);
-    })
-}
-export default list; 
+//  const list = ()=>{
+//      return new Promise((resolve,reject)=>{
+//          setTimeout(() => {
+//              resolve(dataBase);
+//         },2000);
+//      })
+//  }
+export default dataBase; 
