@@ -4,7 +4,9 @@
 
 body{
   background-color: rgb(249, 249, 249);
+  
 }
+
 
 .navbar {
   width: 100%;
@@ -16,10 +18,12 @@ body{
 }
  .nav-link{
   color: white !important;
+  
  }
 
  .nav-link:hover{
   color: rgb(84, 84, 84) !important;
+  
  }
 
 

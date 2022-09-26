@@ -12,7 +12,7 @@ const Item = ({list})=> {
     return(
 <>
 <div className="cards" >
-<img className="imag" src={list.image}    />
+<img className="imag " src={list.image}    />
   <div className="card-body">
   
     <h5 className="card-title">{list.title}</h5>
