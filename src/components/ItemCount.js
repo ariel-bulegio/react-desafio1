@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 const ItemCount = ({handleComprar})=>{
+    
 const [cant, setCant] = useState(1);
 const handleMas =()=>{
     if (cant < 10){

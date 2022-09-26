@@ -1,5 +1,6 @@
 import React from "react";
 import ItemCount from "./ItemCount";
+import { Link } from "react-router-dom";
 
 const Item = ({list})=> {
 
@@ -19,7 +20,7 @@ const Item = ({list})=> {
     
     
   </div>
-  <button className="detalles">Mas detalles</button>
+  <Link to={"/detalle/" + list.id}><p className="detalles">Mas detalles</p></Link>
   <ItemCount handleComprar={handleComprar}/>
 </div>
 
