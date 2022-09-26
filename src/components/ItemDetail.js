@@ -9,7 +9,8 @@ const ItemDetail = ({list}) =>{
 
 <>
 <div className="container">
-    <img className="imagen imag" src={list.image} />
+    <img className="imagen" src={list.image} alt
+    ="hola"/>
     <h2 className="titulo"> {list.title}</h2>
     <p className="descripcion">{list.description}</p> 
     <div className="grey">

@@ -11,7 +11,7 @@ const ItemsListContainer = () =>{
     useEffect(()=> {
 
         if(id){
-            customFetch(2000, dataBase.filter(list => list.categoryId === id))
+            customFetch(2000, dataBase.filter(list => list.categoryId == id))
             .then(result => setData(result))
             .catch(err => console.log(err))
 
@@ -25,12 +25,6 @@ const ItemsListContainer = () =>{
       },[id]);
 
 
-    // useEffect(()=> {
-    //   list()
-    //     .then((response)=> setData(response))
-    //     .catch((err)=> console.error(err))
-    //     .finally()
-    // },[])
     
     return(
         <>

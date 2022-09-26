@@ -128,11 +128,5 @@ const dataBase = [
    
 ]
 
-//  const list = ()=>{
-//      return new Promise((resolve,reject)=>{
-//          setTimeout(() => {
-//              resolve(dataBase);
-//         },2000);
-//      })
-//  }
+
 export default dataBase; 
