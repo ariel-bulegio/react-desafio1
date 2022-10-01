@@ -20,6 +20,8 @@ const dataBase = [
         material :"Material: Acero ",
         color : "Color: Gris (Acero) ",
         stock : `Stock disponible: ${3}`,
+        cantSelec: 0,
+        precio: 29000
        },
     
 
@@ -32,6 +34,8 @@ const dataBase = [
      material :"Material: Cuerpo de aluminio con revestimiento starflon Mangos de baquelita antitermica  ",
      color : "Color: Rojo ",
      stock : `Stock disponible: ${4}`,
+     cantSelec: 0,
+     precio: 22800
     },
 
     {
@@ -43,6 +47,8 @@ const dataBase = [
      material :"Material: Aluminio con revestimiento interno y externo en antiadherente Starflon T1 ",
      color : "Color: Negro ",
      stock : `Stock disponible: ${1}`,
+     cantSelec: 0,
+     precio: 30000
 
     },
 
@@ -55,6 +61,8 @@ const dataBase = [
      material :"Material: Mango de plastico reforzado",
      color : "Color: azul",
      stock : `Stock disponible: ${10}`,
+     cantSelec: 0,
+     precio: 4000
      
     },
 
@@ -67,6 +75,8 @@ const dataBase = [
      material :"Material: Mango de plastico reforzado  ",
      color : "Color:Negro ",
      stock : `Stock disponible: ${45}`,
+     cantSelec: 0,
+     precio: 3000
      
     },
 
@@ -79,6 +89,8 @@ const dataBase = [
      material :"Material: Vidrio ",
      color : "Color: - ",
      stock : `Stock disponible: ${23}`,
+     cantSelec: 0,
+     precio: 2200
     },
 
     {
@@ -90,6 +102,8 @@ const dataBase = [
      material :"Material: Porcelana ",
      color : "Color: Blanco floreado",
      stock : `Stock disponible: ${34}`,
+     cantSelec: 0,
+     precio: 300
     },
 
     {
@@ -101,6 +115,9 @@ const dataBase = [
      material :"Material: Porcelana ",
      color : "Color: Blanco floreado",
      stock : `Stock disponible: ${28}`,
+     cantSelec: 0,
+     precio: 300
+
     },
 
     {
@@ -112,6 +129,8 @@ const dataBase = [
      material :"Material: Vidrio",
      color : "Color: - ",
      stock : `Stock disponible: ${15}`,
+     cantSelec: 0,
+     precio: 200
     },
 
     {
@@ -123,6 +142,8 @@ const dataBase = [
      material :"Material: Vidrio ",
      color : "Color: - ",
      stock : `Stock disponible: ${35}`,
+     cantSelec: 0,
+     precio: 900
     },
 
    
